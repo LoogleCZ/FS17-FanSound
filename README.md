@@ -12,18 +12,22 @@ This script came with documentation where you can find how to install this scrip
 
 ## Script informations
 
-Author of script: [Martin Fabík](https://www.fb.com/LoogleCZ)
+Author of script: [Martin Fabík](https://www.fb.com/LoogleCZ) [<mar.fabik@gmail.com>](mailto:mar.fabik@gmail.com)
+
 Idea author: [Ago-Systemtech (Modhoster Team)](https://www.fb.com/ago.systemtech)
+
 Script namesapce: `LFS` (more in documentation)
 
 ### Release
 
 Last script release version: 1.0.0.
+
 Release date: 2017-12-20
 
 ### Development
 
 Last script development version: 1.0.0.
+
 Last modification date: 2017-12-20
 
 ## Usage conditions

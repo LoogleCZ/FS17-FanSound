@@ -10,7 +10,7 @@ First of all please note that I use namespaces in my scripts to avoid variable n
 
 Please note in this list is only my non standart methods and functions - not standart game functions and methods.
 
-* toggleSound
+* `toggleSound`
   * Definition:
     ```lua
       function FanSound:toggleSound(isOn, noEventSend)
@@ -28,14 +28,13 @@ Please note in this list is only my non standart methods and functions - not sta
 
 All variables have namespace prefix (`LFS`). So `sound` -> `self.LFS.sound`
 
-* sound - SoundUtil node
-* startOffset - int
-* startSoundTime - int counter
-* status - int
-* minRandomTime - int
-* maxRandomTime - int
-* soundEnabled - bool
-
-* indicator.object - object
-* indicator.animation - nil/string
-* indicator.animationI3D nil/animClipID
+* `sound` - SoundUtil node
+* `startOffset` - int
+* `startSoundTime` - int counter
+* `status` - int
+* `minRandomTime` - int
+* `maxRandomTime` - int
+* `soundEnabled` - bool
+* `indicator.object` - object
+* `indicator.animation` - nil/string
+* `indicator.animationI3D` nil/animClipID
