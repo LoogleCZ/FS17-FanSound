@@ -30,6 +30,12 @@ Last script development version: 1.0.0.
 
 Last modification date: 2017-12-20
 
+## Mods using this script
+
+List of mods using this script. If you want, you can add your mod in this list or I'll add your mod in this list if you [send me a mail](mailto:mar.fabik@gmail.com).
+
+* [John Deere 7R series 2011 Europe Version](https://www.modhoster.de/mods/john-deere-7r-series-2011-europe-version) by [Ago Modding](https://www.fb.com/ago.systemtech)
+
 ## Usage conditions
 
 Script is free for noncommercial use. Any commercial usage is prohibited. Also do not remove headers from scripts and you must keep information about author of script. If you want to help with development with this script, you can do this here on GitHub or write me an email an [mar.fabik@gmail.com](mailto:mar.fabik@gmail.com).
