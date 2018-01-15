@@ -1,30 +1,30 @@
 # Minimal instalation of IC
 
-This tutorial will explain, how to integrate FanScript into your mod.
+This tutorial will explain, how to integrate FanSound into your mod.
 
 ## Step 1
 
-Place `FanScript.lua` from `src` somewhere in you mod's directory. Idealy in folder named `scripts` etc...
+Place `FanSound.lua` from `release` somewhere in you mod's directory. Idealy in folder named `scripts` etc...
 
 ## Step 2
 
 Register specialization in `modDesc.xml`.
 
-You will need to tell game that this script is part of your mod. Here is an example>
+You will need to tell game that this script is part of your mod. Here is an example:
 
 ```xml
 <modDesc descVersion="37">
 	<!-- rest of your modDesc here -->
 	<specializations>
 		<!-- rest of the specializations -->
-		<specialization name="FanScript" className="FanScript" filename="__path_to_script__/FanScript.lua"/>
+		<specialization name="FanSound" className="FanSound" filename="__path_to_script__/FanSound.lua"/>
 	</specializations>
 </modDesc>
 ```
 
 ## Step 3
 
-Now you need to add interactive constrol specialization into your vehicle type. This is done also in `modDesc.xml` in `<vehicleTypes>` section. Here is an example:
+Now you need to add FanSound specialization into your vehicle type. This is done also in `modDesc.xml` in `<vehicleTypes>` section. Here is an example:
 
 ```xml
 <modDesc descVersion="37">
@@ -33,7 +33,7 @@ Now you need to add interactive constrol specialization into your vehicle type. 
 		<!-- maybe other vehicleTypes -->
 		<type name="yourVehicleType" className="Vehicle" filename="$dataS/scripts/vehicles/Vehicle.lua">
 			<!-- rest of vehicle specializations here -->
-			<specialization name="FanScript"/>
+			<specialization name="FanSound"/>
 		</type>
 	</vehicleTypes>
 </modDesc>
@@ -54,4 +54,4 @@ Open you mod xml file, and scroll at the and of file. Before `</vehicle>` closin
 </vehicle>
 ```
 
-[XML format documentation with explanation](./XMLFormatDocumentation.md)
+Complete list of attributes and nodes can be found with explanation in [XML format documentation with explanation](./XMLFormatDocumentation.md).

@@ -14,7 +14,7 @@ In this file I will describe XML schema for Interactive Control. In shema I'll b
 <!-- XML schema documentation -->
 <fanSound>
 	[<indicator 
-		( animation=""//string | clipRoot=""//i3d_node clip=""//string )
+		[( animation=""//string | clipRoot=""//i3d_node clip=""//string ) [loopingAnimation="false"//bool]]
 		[index=""//i3d_node]
 	/>]
 	<sound [linkNode=""//i3d_node] [startOffset="0"//int]
@@ -34,4 +34,5 @@ You can set up `randomMinRange` and `randomMaxRange`. After fan sound turn off, 
 
 ## Setting up indicator
 
-As you can see from format documentation you can set indicator for fan sound (if sound is on/off). Indicator can be simple object that will be toggled by visibility and/or animation. Animation can be from vehicle's XML file or from I3D. You can't have more than one animation as indicator.
+As you can see from format documentation you can set indicator for fan sound (if sound is on/off). Indicator can be simple object that will be toggled by visibility and/or animation (this object is set by `index` attribute).
+Also you can set animation - this can be from vehicle's XML file (`animation` attribute) or from I3D (`clipRoot` and `clip` attributes). You can't have more than one animation as indicator. Animation can be looping - in this case animation will be played while fan is ON instead of once at start and once at end.
