@@ -1,6 +1,6 @@
 # IC XML Format documentation
 
-In this file I will describe XML schema for Interactive Control. In shema I'll be using this symbols with this meaning:
+In this file I will describe XML schema for Fan Sound specilization. In shema I'll be using this symbols with this meaning:
 
 * `( x | y )` - this means, that script using x OR y - not both at same time
 * `[xyz=""]` - means that attribute is not required and default value is no set
